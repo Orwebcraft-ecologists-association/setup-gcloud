@@ -10,7 +10,7 @@
 # implied. See the License for the specific language governing permissions and limitations under the
 # License.
 
-FROM nginx
+FROM nginx:1.29.4-trixie
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
